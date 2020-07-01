@@ -105,7 +105,7 @@ public class ChooseAreaFragment extends Fragment {
                 }
             }
         });
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /**listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (currentLevel == LEVEL_PROVINCE) {
@@ -122,7 +122,7 @@ public class ChooseAreaFragment extends Fragment {
                     getActivity().finish();
                 }
             }
-        });
+        });**/
         queryProvinces();
     }
 
